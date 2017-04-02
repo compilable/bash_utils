@@ -17,15 +17,9 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Introduction:
-# Purpose of this 
-# Program execution : 
+# Introduction: This script will run as a deamon service and restrict all your incoming and # # # # outgoing traffice only via a configured VPN connection. In case of a communication failure (VPN # connection brekdown) all the connections will be restricted.
 
-# vpn-kill-switch_1.0.sh [1] [2] [3]
-
-# Program accepts 3 parameters
-#   [1] : VPN configuration file (ending with ovpn), this will be pass with openvpn --config command.
-#   [2] [3] : IP address followed by the port of a remote machine that will be allowed to access.
+# Please read : vpn-kill-switch_1.0 -Readme.txt for more informaiton.
 
 exec 1> >(logger -s -t $(basename $0)) 2>&1
 
