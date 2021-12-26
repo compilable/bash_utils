@@ -3,7 +3,7 @@
 # utility software = youtube-dl : https://github.com/ytdl-org/youtube-dl/
 
 extract_audio_save() {
-    /usr/local/bin/./youtube-dl --extract-audio --audio-format mp3 $1
+    /usr/local/bin/youtube-dl --extract-audio --audio-format mp3 $1
 }
 
 
