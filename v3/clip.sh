@@ -1,7 +1,18 @@
 #!/bin/bash
-# v.1.1 : Copy clipboard and remove after 10 sec.
-# utility software = xclip : https://github.com/astrand/xclip
 
+<< 'MULTILINE-COMMENT'
+
+Script to copy file content to clipboard and remove after 10 sec.
+version : v1.1.0
+dependencies:  xclip
+Links:  https://github.com/astrand/xclip
+
+Input parms:
+
+    # text file to be copied
+    eg: test/secret.txt
+
+MULTILINE-COMMENT
 
 copy_and_distroy() {
 

@@ -1,6 +1,18 @@
 #!/bin/bash
-# v.1.0 : remve meta information from png files & minify to suite web sites.
-# # utility software = exiftool : https://exiftool.org/ , pngquant : https://github.com/kornelski/pngquant
+
+<< 'MULTILINE-COMMENT'
+
+Script to remove meta information from png files & minify to suite web sites.
+version : v1.0.0
+dependencies: exiftool , pngquant
+Links:  https://exiftool.org/ , https://github.com/kornelski/pngquant
+
+Input parms:
+
+    # image file.
+    eg: test/image_with_metainfo.png
+
+MULTILINE-COMMENT
 
 extract_metainfo() {
     exiftool -all= $1

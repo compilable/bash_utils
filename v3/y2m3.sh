@@ -1,6 +1,18 @@
 #!/bin/bash
-# v.1.0 : download video from youtube and convert to mp3.
-# utility software = youtube-dl : https://github.com/ytdl-org/youtube-dl/
+
+<< 'MULTILINE-COMMENT'
+
+Script to download video from youtube and convert to mp3.
+version : v1.0.0
+dependencies:  youtube-dl 2021.12.17 + , python version 2.6, 2.7, or 3.2+ 
+Links:  https://ytdl-org.github.io/youtube-dl/download.html
+
+Input parms:
+
+    # youtube video url.
+    eg: https://www.youtube.com/watch?v=AlnJHVa5D-w
+
+MULTILINE-COMMENT
 
 extract_audio_save() {
     /usr/local/bin/youtube-dl --extract-audio --audio-format mp3 $1
