@@ -94,6 +94,7 @@ start_backup(){
 
     echo -e "\nNOTICE 2\n. --------------[ Commadn Info ]--------------\n. Command executed: $cmd \n. Backup Name: $backup_name \n. Source Folder: $source \n. Destination: $sftp_destination \n. SSH_AUTH_SOCK: $ssh_auth_from_env \n. Encrypt-key: $encrypt_key_id \n------------------------------------------------- " >> $log
     echo -e "[info] backup process completed at : "$(date "+%Y-%m-%d_%H.%M.%S") 
+    notify-send "Local Backup" "$backup_name - backup completed" -t 100
     echo -e "[info] backup log file : $log"
 }
 
