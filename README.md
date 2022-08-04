@@ -1,11 +1,10 @@
 # Steps to install
 
 
-1. check the dependency software and install them 
+1. check the for dependencies and install before runing the scripts. 
 
-2. move the scripts found on vX folder to an executable path (~/bash_utils/v3).
+2. move the scripts found on vX folder to an executable path (~/bash_utils/vX).
 
-3. edit the bash profile and add the above location to your PATH:
-`export PATH=$PATH:~/bash_utils/v3`
+3. edit the bash profile and append the script location to PATH:
+`export PATH=$PATH:~/bash_utils/vX`
 
-4. now the scripts can be run from any terminal.
