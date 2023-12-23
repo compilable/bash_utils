@@ -2,7 +2,7 @@
 
 << 'MULTILINE-COMMENT'
 
-Script to automate the duplicity backups.
+Script to automate the duplicity backups and upload to sftp.
 version : v1.0.0
 dependencies: ssh , duplicity
 

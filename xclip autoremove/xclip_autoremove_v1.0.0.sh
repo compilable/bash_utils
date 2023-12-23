@@ -10,7 +10,7 @@ Links:  https://github.com/astrand/xclip
 Input parms:
 
     # text file to be copied
-    eg: test/secret.txt
+    eg: ../test/secret.txt
 
 MULTILINE-COMMENT
 

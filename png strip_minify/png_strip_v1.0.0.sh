@@ -10,7 +10,7 @@ Links:  https://exiftool.org/ , https://github.com/kornelski/pngquant
 Input parms:
 
     # image file.
-    eg: test/image_with_metainfo.png
+    eg: ../test_data/image_with_metainfo.png
 
 MULTILINE-COMMENT
 
